@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'antiqueolive';
+    src: url('fonts/AntiqueOliveStd-BoldCond.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+  margin: 0px;
+  background-color: #e9ecef;
+  font-family: 'antiqueolive';
+  text-transform: uppercase;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+#consigne1 {
+  color:#42a5f5;
+}
+
+#consigne2 {
+  color: #45dc7c;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  background-image: url('images/fast&furious.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.banner h1 {
+  text-shadow:   -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 10px #141414;
+  color:#fff;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+table {
+  margin: 20px auto;
+  /* border-spacing: 0px; */
+  border-spacing: 0px;
+  border-collapse: collapse;
+  /* border-radius: 1em; */
+  /* overflow: hidden; */
+  border-style: hidden;
+}
+
+th {
+  background-color: #adb5bd;
+  padding: 20px;
+  font-size: 26px;
+  border: 1px solid #495057;
+}
+
+td {
+  text-align: center;
+  background-color: #ced4da;
+  border: 1px solid #495057;
+}
+
+td img {
+  display: flex;
+  border-spacing: 0px;
+}
+
+img {
+  width: 240px;
+  height: 100%;
+  overflow: hidden;
+}
+
+img:hover {
+  -webkit-transform:scale(1.25);
+  transform:scale(1.30);
+  transition: all 1s ease-out;
+  /* transition: all 0.5ms; */
+}
+
+td.annee {
+  font-size: 20px;
+}
+
+td.titre, td.realisateurs {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* .list-inline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.list-inline-items {
+  border: 1px solid red;
+} */
